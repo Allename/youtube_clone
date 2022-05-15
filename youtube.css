@@ -4,15 +4,6 @@ p {
   margin-bottom: 0;
 }
 
-.thumbnail {
-  width: 300px;
-  display: block;
-}
-
-.thumbnail-row {
-  margin-bottom: 12px;
-}
-
 .search-bar {
   display: block;
 }
@@ -24,15 +15,18 @@ p {
   margin-right: 15px;
 }
 
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
+.thumbnail-row {
+  margin-bottom: 12px;
 }
 
-.video-info {
-  display: inline-block;
-  width: 200px;
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .video-title {
