@@ -1,3 +1,8 @@
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+
 .search-bar {
   display: block;
 }
@@ -9,17 +14,22 @@
   margin-right: 15px;
 }
 
-.video-title {
-  width: 300px;
-}
-
 .channel-picture {
   display: inline-block;
   width: 50px;
+  vertical-align: top;
 }
 
 
 .video-info {
   display: inline-block;
   width: 200px;
+}
+
+.video-title {
+  margin-top: 0;
+}
+
+.profile-picture {
+  width: 100%;
 }
