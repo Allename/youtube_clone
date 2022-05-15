@@ -1,0 +1,10 @@
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.video-title {
+  width: 300px;
+}
