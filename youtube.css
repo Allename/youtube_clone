@@ -3,6 +3,10 @@
   display: block;
 }
 
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+
 .search-bar {
   display: block;
 }
@@ -31,5 +35,6 @@
 }
 
 .profile-picture {
-  width: 100%;
+  width: 40px;
+  border-radius: 50px;
 }
