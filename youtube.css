@@ -19,7 +19,17 @@ p {
 }
 
 .left-section {
-  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  height: 24px;
+  margin: 0 24px;
+}
+
+.youtube-logo {
+  height: 20px;
 }
 
 .middle-section {
