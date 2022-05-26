@@ -19,6 +19,11 @@ p {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
 }
 
 .left-section {
@@ -51,6 +56,7 @@ p {
   border: 1px solid rgb(192, 192, 192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
 }
 
 .search-bar::placeholder {
@@ -90,6 +96,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .upload-icon {
