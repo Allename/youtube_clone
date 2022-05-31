@@ -149,6 +149,14 @@ p {
   width: 72px;
 }
 
+.sidebar-link {
+  height: 76px;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+}
+
 /* Grid Content */
 .video-grid {
   display: grid;
