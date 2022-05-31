@@ -26,6 +26,7 @@ p {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -142,10 +143,23 @@ p {
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
 }
 
 .thumbnail {
   width: 100%;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
 }
 
 .video-info-grid {
