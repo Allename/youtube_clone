@@ -114,8 +114,24 @@ p {
   height: 24px;
 }
 
+.notifications-icon-container {
+  position: relative;
+}
+
 .notifications-icon {
   height: 24px;
+}
+
+.notifications-count {
+  position: absolute;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 10px;
+  top: -2px;
+  right: -3px;
+
 }
 
 .current-user-picture {
