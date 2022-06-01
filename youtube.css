@@ -6,8 +6,10 @@
 
 body {
   padding-top: 80px;
-  padding-left: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
   font-family: Roboto, Arial;
+  background-color: rgb(248, 248, 249);
 }
 
 p {
@@ -79,6 +81,33 @@ p {
   margin-right: 10px;
 }
 
+.search-button,
+.voice-search-button,
+.upload-icon-container {
+  position: relative;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip{
+  position: absolute;
+  bottom: -30px;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip {
+  opacity: 1;
+}
+
 .search-icon {
   height: 25px;
   margin-top: 4px;
@@ -141,19 +170,23 @@ p {
 
 /* Sidebar */
 .sidebar {
+  width: 72px;
+  padding-top: 5px;
   position: fixed;
   top: 56px;
   left: 0;
   bottom: 0;
+  z-index: 200;
   background-color: white;
-  width: 72px;
 }
 
 .sidebar-link {
-  height: 76px;
+  height: 74px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  cursor: pointer;
 }
 
 .sidebar-link:hover {
@@ -162,6 +195,11 @@ p {
 
 .sidebar-link img {
   height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-size: 10px;
 }
 
 /* Grid Content */
@@ -173,7 +211,7 @@ p {
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -203,7 +241,7 @@ p {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .video-author, 
@@ -217,6 +255,6 @@ p {
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50px;
 }
