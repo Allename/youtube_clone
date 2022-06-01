@@ -2,7 +2,6 @@
 Recreated youtube's homepage using HTML and CSS
 
 
-# Link to the website
 https://allename.github.io/youtube_clone/youtube.html
 
 
