@@ -273,4 +273,10 @@ p {
   .search-bar{
     display: none;
   }
+
+  .search-button .tooltip,
+  .voice-search-button .tooltip,
+  .upload-icon-container .tooltip{
+    display: none;
+  }
 }
